@@ -1,0 +1,55 @@
+header {
+    background-color: black;
+    color: cornsilk;
+    display: grid;
+    grid-template-columns: 70px auto 70px 100px 70px;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+}
+
+navigation {
+    background-color: slategray;
+    color: lightgray;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    background-color: burlywood;
+    border: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.latest {
+    background-color: cornsilk;
+    display: grid;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.new {
+    display: grid;
+    border: black;
+    border-width: 2px;
+    grid-template-columns: 1fr 1fr;
+    height: 460px;
+    align-items: center;
+    text-align: center;
+    background-color:lavender;
+}
+
+.recent {
+    display: grid;
+    background-color: thistle;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    align-items: center;
+    text-align: center;
+}
